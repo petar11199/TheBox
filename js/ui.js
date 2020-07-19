@@ -1,6 +1,6 @@
 const centerBoxEl = document.querySelector('.center-box')
 const uiWrapper = document.querySelector('.ui-wrapper')
-const closeInfoButton = document.querySelector('.close-info')
+const closeInfoButton = document.querySelector('.close-info-button')
 
 setTimeout(() => {
   uiWrapper.classList.remove('initializeApp')

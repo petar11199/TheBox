@@ -119,7 +119,7 @@ h1::after, h2::after {
   background-color: var(--pointsColor);
   content: '';
   transition: width 300ms ease;
-  background-image: url('./assets/info.png');
+  background-image: url('./resources/images/info.png');
   background-position: center;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -155,6 +155,21 @@ h1::after, h2::after {
   top: 50%;
   left: 50%;
   cursor: pointer;
+}
+
+.close-info-button {
+  display: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid var(--pointsColor);
+  color: var(--secondaryColor);
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  cursor: pointer;
+  min-width: 20px;
+  opacity: 1;
 }
 
 /* ---------- INITIALIZE ANIM ------------- */
